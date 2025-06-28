@@ -1,0 +1,156 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booleans</title>
+</head>
+<body>
+    
+
+
+<style>
+button{
+    background-color: red;
+    color: black;
+    border: none;
+}
+
+</style>
+<button title="tooltip"
+onclick="alert('Added!');">hello</button>
+<p>Hello this is it</p>
+</body>
+<script>
+  /*
+  true
+  false
+  console.log(3>5);
+
+  console.log(5 === '5');
+  if (false) {
+    console.log('hello');
+  } else{
+    console.log('else');
+  }
+  const age = 15;
+
+  if (age >= 16) {
+    console.log('old enough to drive');
+    console.log('congrats');
+  }
+    else if(age >= 14) {console.log('almost there');
+
+    }
+   else{
+    console.log('not old enough to drive');
+  }
+  */
+ /*
+ console.log(true && false);
+ console.log(true || false);
+ console.log(!true);
+ 
+ if(0){
+  console.log('truthy');
+ }
+ const cartQuantity = 5;
+ if(cartQuantity){
+console.log('cart has products');
+ }
+ console.log(!0);
+ console.log(5 /'text');
+ const variable1
+ console.log('variable1');
+ */
+/*ternary operator .used as a subtitute for if,if else statements
+const result = 0? 'truthy':'falsy';
+console.log(result);
+false && console.log('hello');
+const message = 5 && 'hello';
+console.log(message);
+const currency = undefined || 'USD';
+console.log(currency);
+*/
+/*
+let hour  = 18;
+if(hour >= 6 && hour < 12)
+{
+console.log('Good Morning')
+}
+else if(hour >= 13 && hour < 17){
+console.log('Good Afternoon')
+}
+else {
+console.log('Good night')
+}
+
+const hour = 15;
+let name  = 'bryan';
+if(hour >= 6 && hour < 12)
+{
+console.log(`Good Morning ${name}!`);
+}
+else if(hour >= 13 && hour < 17){
+console.log(`Good Afternoon ${name}!`);
+}
+else {
+console.log(`Good Morning ${name}!`);
+}
+let age = 66;
+let isHoliday = true;
+if((age < 6 || age > 65 )&& isHoliday ){
+  console.log('discount');
+}
+else{
+  console.log('buy ticket');
+}
+const randomNum = Math.random(0.6);
+let result;
+
+if(randomNum < 0.5){
+result ='heads';
+}
+else{
+  result='tails';
+}
+const guess = 'heads';
+
+      if (guess === result) {
+        console.log('You win!');
+      } else {
+        console.log('You lose!');
+      }
+      
+      const randomNum = Math.random(0.5);
+      const result = randomNumber < 0.5 ?'heads'  : 'tails';
+      */
+      const randomNumber = Math.random();
+      const result = randomNumber < 0.5 ? 'heads' : 'tails';
+
+    const guess = 'heads';
+    console.log(guess === result? 'You win' : 'You loose' );
+    let hour = 18;
+
+let greeting = (hour >= 6 && hour < 12) ? 'Good Morning' :
+               (hour >= 13 && hour < 17) ? 'Good Afternoon' :
+               'Good night';
+
+console.log(greeting);
+
+const age = 15;
+
+  if (age >= 16) {
+    console.log('old enough to drive');
+    console.log('congrats');
+  }
+    else if(age >= 14) {console.log('almost there');
+
+    }
+   else{
+    console.log('not old enough to drive');
+   }
+   
+</script>
+
+</html>

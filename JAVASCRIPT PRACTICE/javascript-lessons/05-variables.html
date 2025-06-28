@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    
+
+
+<style>
+button{
+    background-color: red;
+    color: black;
+    border: none;
+}
+
+</style>
+<button title="tooltip"
+onclick="alert('Added!');">hello</button>
+<p>Hello this is it</p>
+</body>
+<script>
+   let variable1 = 3;
+   console.log(variable1);
+    const calculation = 2 + 2;
+   console.log(calculation);
+   console.log(calculation + calculation);
+   //you can use a variable inside a calculation//
+   const result = calculation + 2;
+   console.log(result);
+   const message = 'hello';
+   console.log(message); console.log(calculation);
+
+   //resigning a variable refer to line 25//
+   variable1 = 6;
+   console.log(variable1);
+   //you can assign a variable as many times as you want//
+   variable1 = variable1 + 2;
+   console.log(variable1)
+   const variable2 = 5;
+   console.log(typeof variable2);
+   console.log(typeof message);
+
+   let name = 'bryan';
+   console.log(`My name is: ${name}`);
+   const cost = (5 + 2*3 + 9)*1.1;
+   console.log(`Cost of food: $${cost}`);
+   const tax = cost * 0.1;
+   console.log(tax);
+</script>
+
+</html>
