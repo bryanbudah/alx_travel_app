@@ -1,7 +1,8 @@
-Django
+# alx_travel_app/requirements.txt
+
+Django>=4.2
 djangorestframework
 django-cors-headers
 drf-yasg
-django-environ
-mysqlclient
 celery
+redis
